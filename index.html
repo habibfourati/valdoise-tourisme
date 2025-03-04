@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Découvrez le Val-d'Oise - Sites Touristiques</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Découvrez le Val-d'Oise</h1>
+            <p>Les trésors touristiques d'un département aux multiples facettes</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#sites">Sites touristiques</a></li>
+                <li><a href="#carte">Carte</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="accueil" class="hero">
+        <div class="container">
+            <h2>Bienvenue dans le Val-d'Oise</h2>
+            <p>Entre histoire, culture et nature, le Val-d'Oise vous offre une multitude de découvertes à seulement quelques kilomètres de Paris.</p>
+            <a href="#sites" class="btn">Découvrir les sites</a>
+        </div>
+    </section>
+
+    <section id="sites" class="sites-section">
+        <div class="container">
+            <h2>Les sites incontournables</h2>
+            <div class="sites-grid">
+                <div class="site-card">
+                    <div class="site-image" style="background-image: url('https://source.unsplash.com/random/600x400/?chateau,france');"></div>
+                    <div class="site-content">
+                        <h3>Château d'Auvers-sur-Oise</h3>
+                        <p>Découvrez ce magnifique château du XVIIe siècle qui propose une immersion dans l'univers des impressionnistes, sur les traces de Van Gogh.</p>
+                        <div class="site-info">
+                            <span><i class="fas fa-map-marker-alt"></i> Auvers-sur-Oise</span>
+                            <a href="#" class="btn-small">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="site-card">
+                    <div class="site-image" style="background-image: url('https://source.unsplash.com/random/600x400/?abbey,france');"></div>
+                    <div class="site-content">
+                        <h3>Abbaye de Maubuisson</h3>
+                        <p>Ancienne abbaye cistercienne fondée en 1236, aujourd'hui centre d'art contemporain niché dans un parc de 10 hectares.</p>
+                        <div class="site-info">
+                            <span><i class="fas fa-map-marker-alt"></i> Saint-Ouen-l'Aumône</span>
+                            <a href="#" class="btn-small">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="site-card">
+                    <div class="site-image" style="background-image: url('https://source.unsplash.com/random/600x400/?castle,river');"></div>
+                    <div class="site-content">
+                        <h3>Château de La Roche-Guyon</h3>
+                        <p>Adossé à la falaise, ce château millénaire offre un panorama exceptionnel sur la vallée de la Seine.</p>
+                        <div class="site-info">
+                            <span><i class="fas fa-map-marker-alt"></i> La Roche-Guyon</span>
+                            <a href="#" class="btn-small">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="site-card">
+                    <div class="site-image" style="background-image: url('https://source.unsplash.com/random/600x400/?park,nature');"></div>
+                    <div class="site-content">
+                        <h3>Parc naturel régional du Vexin français</h3>
+                        <p>Paysages préservés, villages pittoresques et patrimoine architectural unique, le Vexin français est un havre de paix à découvrir.</p>
+                        <div class="site-info">
+                            <span><i class="fas fa-map-marker-alt"></i> Théméricourt</span>
+                            <a href="#" class="btn-small">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="site-card">
+                    <div class="site-image" style="background-image: url('https://source.unsplash.com/random/600x400/?beach,river');"></div>
+                    <div class="site-content">
+                        <h3>L'Isle-Adam et sa plage</h3>
+                        <p>Labellisée « plus beau détour de France », cette charmante ville propose la plus grande plage fluviale de France.</p>
+                        <div class="site-info">
+                            <span><i class="fas fa-map-marker-alt"></i> L'Isle-Adam</span>
+                            <a href="#" class="btn-small">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="site-card">
+                    <div class="site-image" style="background-image: url('https://source.unsplash.com/random/600x400/?museum,art');"></div>
+                    <div class="site-content">
+                        <h3>Musée Daubigny</h3>
+                        <p>Dédié au précurseur de l'impressionnisme, Charles-François Daubigny, ce musée présente des collections liées aux peintres ayant séjourné dans la vallée de l'Oise.</p>
+                        <div class="site-info">
+                            <span><i class="fas fa-map-marker-alt"></i> Auvers-sur-Oise</span>
+                            <a href="#" class="btn-small">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="carte" class="map-section">
+        <div class="container">
+            <h2>Carte des sites touristiques</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167386.85850782458!2d1.9320178767211156!3d49.08087888827856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6614051bedcd3%3A0x567a0047f4d0efaf!2sVal-d&#39;Oise!5e0!3m2!1sfr!2sfr!4v1614959010000!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informations</h3>
+                    <p><i class="fas fa-envelope"></i> info@tourisme-valdoise.fr</p>
+                    <p><i class="fas fa-phone"></i> +33 1 XX XX XX XX</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Office de Tourisme du Val-d'Oise</p>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Val-d'Oise Tourisme</h3>
+                    <p>Votre guide pour découvrir les merveilles du Val-d'Oise</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#sites">Sites touristiques</a></li>
+                        <li><a href="#carte">Carte</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Val-d'Oise Tourisme. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
