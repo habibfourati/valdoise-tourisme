@@ -1,0 +1,184 @@
+/* Styles pour les pages de détail des sites touristiques */
+
+/* Hero section pour les sites */
+.site-detail-hero {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.site-detail-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.site-detail-hero p {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Section de détails du site */
+.site-details {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.site-description {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.site-description h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.site-description h3 {
+    color: #3498db;
+    margin: 30px 0 15px;
+    font-size: 1.5rem;
+}
+
+.site-description p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Blocs d'information */
+.site-info-blocks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.info-block {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.info-block:hover {
+    transform: translateY(-5px);
+}
+
+.info-block i {
+    font-size: 2.5rem;
+    color: #3498db;
+    margin-bottom: 15px;
+}
+
+.info-block h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.info-block p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+/* Galerie photos */
+.site-gallery {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.site-gallery h3 {
+    color: #3498db;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Lien de retour */
+.back-link {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.back-link .btn {
+    display: inline-flex;
+    align-items: center;
+    background-color: #3498db;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.back-link .btn i {
+    margin-right: 10px;
+}
+
+.back-link .btn:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .site-detail-hero {
+        height: 350px;
+    }
+    
+    .site-detail-hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .site-detail-hero p {
+        font-size: 1.2rem;
+    }
+    
+    .site-description, .site-gallery {
+        padding: 25px;
+    }
+    
+    .info-block {
+        padding: 20px;
+    }
+}
